@@ -1,0 +1,17 @@
+﻿<Window x:Class="SPprotoype.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="546" Width="707" Opacity="1" AllowsTransparency="True" WindowStyle="None" Background="Transparent" Focusable="False" IsManipulationEnabled="True" Topmost="True">
+    <Grid Opacity="1" Background="Transparent" Height="513" Width="677">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1082*" />
+            <ColumnDefinition Width="25*" />
+        </Grid.ColumnDefinitions>
+        <TextBox Height="76" HorizontalAlignment="Left" Margin="142,12,0,0" Name="kinectDetection" VerticalAlignment="Top" Width="419" FontSize="40" Text="Kinect Required" TextAlignment="Center" Visibility="Hidden" />
+        <Image x:Name="ColorImageElement" Margin="0,86,0,0" Grid.ColumnSpan="2" Visibility="Hidden" />
+        <Grid Name="LayoutRoot" Background="Transparent" Opacity=".6">
+        </Grid>
+        <TextBox Height="24" HorizontalAlignment="Left" Margin="21,447,0,0" Name="textBox1" VerticalAlignment="Top" Width="54" FontSize="14" FontWeight="Bold" Foreground="#FF99C731" Panel.ZIndex="10" />
+        <TextBox Height="27" HorizontalAlignment="Left" Margin="21,0,0,9" Name="textBox2" VerticalAlignment="Bottom" Width="54" FontSize="14" FontWeight="Bold" Foreground="#FF99C731" Panel.ZIndex="10" />
+    </Grid>
+</Window>
